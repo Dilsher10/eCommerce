@@ -1,4 +1,12 @@
-
+import './App.css';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import Login from "./components/Login";
+import Home from './components/Home';
+import AddProduct from './components/AddProduct';
+import GetProducts from './components/GetProducts';
+import GetProduct from './components/GetProduct';
+import Signup from './components/Signup';
+import UserCart from './components/UserCart';
 
 function App() {
   return (
